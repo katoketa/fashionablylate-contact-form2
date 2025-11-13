@@ -1,0 +1,36 @@
+.thanks-page {
+    font-family: Times, "Yu Gothic", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+    color: #948374;
+}
+
+.thanks-page::after {
+    position: absolute;
+    content: "thank you";
+    font-size: 200px;
+    opacity: 0.1;
+    white-space: nowrap;
+    z-index: -100;
+}
+
+.thanks-page__content {
+    text-align: center;
+}
+
+.thanks-page__message {
+    margin-bottom: 50px;
+}
+
+.thanks-page__back-home {
+    font-family: Times, "Yu Gothic", sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+    background: #827469;
+    padding: 7px 25px;
+    cursor: pointer;
+}

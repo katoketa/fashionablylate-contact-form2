@@ -1,0 +1,15 @@
+body {
+    font-family: Times, "Yu Gothic", sans-serif;
+    color: #8b7969;
+}
+
+.header-content {
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.header-content__title {
+    font-weight: normal;
+    margin: 10px auto;
+}
