@@ -15,7 +15,7 @@
             <h1 class="header-content__title">FashionablyLate</h1>
             <nav class="header-content__nav">
                 <ul>
-                    <li></li>
+                    <li>@yield('nav')</li>
                 </ul>
             </nav>
         </div>
